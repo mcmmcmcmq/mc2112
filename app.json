@@ -1,0 +1,42 @@
+{
+    "name": "heroku-demo",
+    "description": "using Docker",
+    "repository": "https://github.com/history2/heroku-demo",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
+    "keywords": [
+        "hero",
+        "docker",
+        "proxy"
+    ],
+    "stack": "container",
+    "env": {
+        "dropboxcli": {
+            "description": "dropboxcli",
+            "value": ""
+        },
+        "ServerUrl": {
+            "description": "服务端下载地址 tar.gz 的压缩包",
+            "value": ""
+        },
+        "FRP": {
+            "description": "frp服务器配置",
+            "value": ""
+        },
+        "Xray": {
+            "description": "Xray 端口1506 ",
+            "value": ""
+        },
+        "CF": {
+            "description": "cf 证书 ",
+            "value": ""
+        },
+        "CFURL": {
+            "description": "cf 穿透网址 ",
+            "value": ""
+        },
+        "Pwd": {
+            "description": "ttyd密码",
+            "value": ""
+        }
+    }
+}
