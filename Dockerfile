@@ -9,7 +9,8 @@ RUN apt update -y \
  	&& apt install -y  supervisor vim tmux wget curl openjdk-8-jre-headless zip htop \
 	&& chmod +x /configure.sh \
 	&& chmod +x /bin/frpc \
-	&& chmod +x /bin/ttyd 
+	&& chmod +x /bin/ttyd \
+	&& chmod +x /bin/dbxcli 
 
 ENV LANG C.UTF-8
 WORKDIR /home
